@@ -1,0 +1,101 @@
+/* comman config */
+
+/* 
+rem = html verilen bir deger.
+em = body içine verilen deger.
+*/
+
+
+/* CONFİG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* rem */
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: aqua;
+    text-align: center;
+    line-height: 1.7;
+    color: #fff;
+    font-size: 1.7rem;
+    background-color: rgb(13, 32, 18);
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto ;
+}
+
+main> #division-2-list ul li {
+    list-style-type: none;
+}
+
+/************************ HEADER ***********************************/
+
+header {
+    height: 80rem;
+    position: relative;
+}
+
+header .image-header {
+    height: 80rem;
+    width: 100%;
+    background-image: url(/img/header_img.jpg);
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    padding: 24rem 12rem 2rem 12rem;
+    text-transform: uppercase;
+}
+p {
+    padding: 3rem;
+}
+
+header .btn-header {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    transition: all 0.4s;
+    margin: .6rem 0;
+    padding: 1.7rem 3.4rem;
+    border: 1px solid rgb(255, 212, 59);
+    white-space: nowrap;
+    background-color: rgba(6, 65, 6, 0.539);
+}
+header .btn-header:hover {
+    color: green;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+/************************* MAİN *************************************** */
+
+/* selection-1 */
+#division-1-main {
+    background-color: black;
+}
+/* section-2 end */
+
+
+/* selection-2-list */
+
+/* section-2-list end */
