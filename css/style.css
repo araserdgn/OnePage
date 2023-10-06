@@ -45,6 +45,13 @@ main> #division-2-list ul li {
     display: block;
 }
 
+.upperCase {
+    text-transform: uppercase;
+}
+.lowerCase {
+    text-transform: lowercase;
+}
+
 /* Navbar */
 nav {
     background-color: cadetblue;
@@ -92,6 +99,15 @@ nav {
 }
 #logo {
     float: left;
+}
+#logo-image {
+    width: 11rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+#logo-image:hover {
+    opacity: .9;
+    transform: scale(1.1);
 }
 .container {
     width: 120rem;
@@ -150,7 +166,7 @@ header .btn-header:hover {
 }
 
 
-/************************* MAİN *************************************** */
+/************************* MAİN ***************************************** */
 
 /* selection-1 */
 #division-1-main {
@@ -206,3 +222,28 @@ header .btn-header:hover {
 #right-main ul {
     list-style-type: none;
 }
+
+/* bottom */
+
+#bottom a {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: yellow;
+    color: black;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 12px 0 0;
+    transition: all .4s;
+}
+#bottom a:hover {
+    background-color: grey;
+    color: yellow;
+    box-shadow: 1px 2px 3px black;
+}
+#bottom a i {
+    font-size: xx-large;
+    margin-top: 1rem;
+}
+
+/********************************* FOOTER *******************************************/
