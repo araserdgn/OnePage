@@ -246,4 +246,29 @@ header .btn-header:hover {
     margin-top: 1rem;
 }
 
+/******************************** Contact ************************************/
+#form-email {
+    width: 100%;
+    height: 25rem;
+}
+.form-control {
+    width: 50%;
+    padding: 2rem;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    
+}
+.form-group-all {
+    width: 100%;
+    height: auto;
+}
+
+
 /********************************* FOOTER *******************************************/
+footer {
+    padding: 6rem 6rem 12rem 6rem;
+}
+footer a {
+    color: red;
+}
